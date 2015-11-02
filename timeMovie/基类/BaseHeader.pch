@@ -1,0 +1,28 @@
+//
+//  BaseHeader.pch
+//  timeMovie
+//
+//  Created by mac on 15/8/21.
+//  Copyright (c) 2015年 huiwen. All rights reserved.
+//
+
+#ifndef timeMovie_BaseHeader_pch
+#define timeMovie_BaseHeader_pch
+
+//屏幕的宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// SDWebImage
+#import "UIImageView+WebCache.h"
+
+#import "UIViewExt.h"
+
+//读取JSON数据
+#import "MovieJSON.h"
+
+//发送单击通知
+#define kHiddenNavigationBar @"hiddenNavigationBar"
+
+
+#endif
